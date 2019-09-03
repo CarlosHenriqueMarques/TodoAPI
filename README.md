@@ -31,12 +31,13 @@ http://localhost:<PORT>/api/todo
 ##### PUT
 http://localhost:<PORT>/api/todo/1
 ###### Body
+    
 <code>
-'{
+{
     "ID":1,
     "name":"feed fish",
     "isComplete":true
- }'
+}
 <code>
 
 ##### DELETE :
@@ -44,5 +45,5 @@ http://localhost:<PORT>/api/todo/1
 ###### Body 
 Empty
 
-#Referência:
+# Referência:
 https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio
