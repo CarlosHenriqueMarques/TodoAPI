@@ -6,19 +6,19 @@ Project based on Microsoft website to learn about language and architecture
 Using postman:
 - Before you should unable you ssl security in Visual Studio.
 
-#Get :
+*Get :
 http://localhost:<PORT>/api/todo
 #Body :
 Empty
 
 
-#Get with ID
+*Get with ID
 http://localhost:<PORT>/api/todo/1
 Body :
 Empty
 
 
-#POST
+*POST
 http://localhost:<PORT>/api/todo
 #Body :
 '''
@@ -29,7 +29,7 @@ http://localhost:<PORT>/api/todo
 '''
 
 
-#PUT
+*PUT
 http://localhost:<PORT>/api/todo/1
 #Body :
 '''
@@ -40,7 +40,7 @@ http://localhost:<PORT>/api/todo/1
  }
 '''
 
-#DELETE :
+*DELETE :
 http://localhost:<PORT>/api/todo/1
 Body :
 Empty
