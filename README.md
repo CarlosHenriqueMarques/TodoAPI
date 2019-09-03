@@ -24,12 +24,10 @@ http://localhost:<PORT>/api/todo
 
 Body
 
-<code>
 {
     "name":"walk dog",
     "isComplete":true
 }
-<code>
 
 
 PUT
@@ -37,13 +35,11 @@ http://localhost:<PORT>/api/todo/1
 
 Body
     
-<code>
 {
     "ID":1,
     "name":"feed fish",
     "isComplete":true
 }
-<code>
 
 DELETE
 http://localhost:<PORT>/api/todo/1
