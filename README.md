@@ -4,6 +4,8 @@ First API using .NET Core
 Project based on Microsoft website to learn about language and architecture
 
 Using postman:
+- Before you should unable you ssl security in Visual Studio.
+
 #Get :
 http://localhost:<PORT>/api/todo
 #Body :
