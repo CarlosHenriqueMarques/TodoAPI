@@ -20,7 +20,6 @@ Empty
 POST
 http://localhost:<PORT>/api/todo
 Body
-
 <code>
 {
     "name":"walk dog",
@@ -46,5 +45,5 @@ http://localhost:<PORT>/api/todo/1
 Body
 Empty
 
-### Referência:
+Referência:
 https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio
