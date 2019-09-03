@@ -13,7 +13,7 @@ Empty
 
 ##### Get with ID
 http://localhost:<PORT>/api/todo/1
-###### Body 
+###### Body
 Empty
 
 
@@ -21,9 +21,10 @@ Empty
 http://localhost:<PORT>/api/todo
 ###### Body
 
-<code>{
-"name":"walk dog",
-"isComplete":true
+<code>
+{
+    "name":"walk dog",
+    "isComplete":true
 }
 <code>
 
@@ -40,9 +41,9 @@ http://localhost:<PORT>/api/todo/1
 }
 <code>
 
-##### DELETE :
+##### DELETE
 http://localhost:<PORT>/api/todo/1
-###### Body 
+###### Body
 Empty
 
 # Referência:
