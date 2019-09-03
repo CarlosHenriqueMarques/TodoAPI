@@ -7,7 +7,7 @@ Using postman:
 
 Get :
 http://localhost:<PORT>/api/todo
-Body :
+Body
 Empty
 
 
