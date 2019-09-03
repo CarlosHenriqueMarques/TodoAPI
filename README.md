@@ -2,24 +2,24 @@
 First API using .NET Core
 Project based on Microsoft website to learn about language and architecture
 
-###### Using postman:
+Using postman:
 - Before you should unable you ssl security in Visual Studio.
 
-##### Get :
+Get :
 http://localhost:<PORT>/api/todo
-###### Body :
+Body :
 Empty
 
 
-##### Get with ID
+Get with ID
 http://localhost:<PORT>/api/todo/1
-###### Body
+Body
 Empty
 
 
-##### POST
+POST
 http://localhost:<PORT>/api/todo
-###### Body
+Body
 
 <code>
 {
@@ -29,9 +29,9 @@ http://localhost:<PORT>/api/todo
 <code>
 
 
-##### PUT
+PUT
 http://localhost:<PORT>/api/todo/1
-###### Body
+Body
     
 <code>
 {
@@ -41,10 +41,10 @@ http://localhost:<PORT>/api/todo/1
 }
 <code>
 
-##### DELETE
+DELETE
 http://localhost:<PORT>/api/todo/1
-###### Body
+Body
 Empty
 
-# Referência:
+### Referência:
 https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio
