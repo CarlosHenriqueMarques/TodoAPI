@@ -21,10 +21,10 @@ Empty
 *POST
 http://localhost:<PORT>/api/todo
 #Body :
-'{
+<code>{
 "name":"walk dog",
 "isComplete":true
-}'
+}<code>
 
 
 *PUT
