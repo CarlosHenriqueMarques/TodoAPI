@@ -1,24 +1,47 @@
 # TodoAPI
 First API using .NET Core
 
-Primeira API usando .NET core e C#.
-
-Projeto baseado na documentação da Microsoft com o intuito de entender um pouco sobre a linguagem e sua arquitetura.
+Project based on Microsoft website to learn about language and architecture
 
 Using postman:
-Get
-
-Get with ID
-
-POST
-
-PUT
+#Get :
+http://localhost:<PORT>/api/todo
+#Body :
+Empty
 
 
-DELETE :
+#Get with ID
 http://localhost:<PORT>/api/todo/1
 Body :
 Empty
 
-Referência:
+
+#POST
+http://localhost:<PORT>/api/todo
+#Body :
+'''
+{
+"name":"walk dog",
+"isComplete":true
+}
+'''
+
+
+#PUT
+http://localhost:<PORT>/api/todo/1
+#Body :
+'''
+{
+    "ID":1,
+    "name":"feed fish",
+    "isComplete":true
+ }
+'''
+
+#DELETE :
+http://localhost:<PORT>/api/todo/1
+Body :
+Empty
+
+#Referência:
 https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio
