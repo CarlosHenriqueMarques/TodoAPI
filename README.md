@@ -21,24 +21,20 @@ Empty
 *POST
 http://localhost:<PORT>/api/todo
 #Body :
-'''
-{
+'{
 "name":"walk dog",
 "isComplete":true
-}
-'''
+}'
 
 
 *PUT
 http://localhost:<PORT>/api/todo/1
 #Body :
-'''
-{
+'{
     "ID":1,
     "name":"feed fish",
     "isComplete":true
- }
-'''
+ }'
 
 *DELETE :
 http://localhost:<PORT>/api/todo/1
